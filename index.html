@@ -40,7 +40,7 @@
             message: form.message.value
           };
       
-          const res = await fetch('ahttps://5n3gnbs9d4.execute-api.us-east-1.amazonaws.com/Dev/submit', {
+          const res = await fetch('https://5n3gnbs9d4.execute-api.us-east-1.amazonaws.com/Dev/submit', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formData)
